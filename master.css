@@ -1,0 +1,129 @@
+body{
+  background-color: #0d1321;
+  color: #f2ddde;
+  margin: 0;
+  padding: 0;
+}
+h2{
+  background: #ce796b;
+  font-size: 300%;
+  font-style: bold;
+  margin: 0;
+  text-indent: 1.25%;
+}
+h3{
+  font-size: 175%;
+  font-style: bold;
+  margin: 0;
+  color: #f2ddde;
+}
+
+/* // Header
+// ----------- */
+#Header{
+  text-align: center;
+  background: #6a66a3;
+  font-size: 150%;
+  padding: 20px 25px 25px 20px;
+  margin: 0;
+}
+#Header header{
+  font-style: oblique;
+  font-size: 400%;
+}
+#Header p{
+  margin-left: 250px;
+  margin-right: 250px;
+}
+#paragraph{
+  font-size: 150%;
+  padding: 0px 25px;
+}
+#paragraph a{
+  color: #f2ddde;
+  background: #1b998b;
+  text-decoration: none;
+  padding: 7px;
+  margin: 7px;
+  border-radius: 8px;
+}
+#paragraph a:hover{
+  background: rgba(13,19,33,80%);
+}
+/* // Education
+// ----------- */
+#EducationID{
+  font-size: 25px;
+  color: #f2ddde;
+  margin: 0;
+  background-color: #0d1321;
+}
+#EducationID a:link{
+  color: #1b998b;
+}
+#EducationID a:visited{
+  color: #c3796b;
+}
+
+/* // Experience
+// ----------- */
+#ExperienceID{
+  font-size: 25px;
+  color: #f2ddde;
+  margin: 0;
+  background-color: #0d1321;
+}
+#ExperienceID a:link{
+  color: #1b998b;
+}
+#ExperienceID a:visited{
+  color: #c3796b;
+}
+/* // skills
+// ------------- */
+#SkillsID {
+  font-size: 25px;
+  color: #f2ddde;
+  margin: 0;
+  background-color: #0d1321;
+}
+
+/* // Contact Info
+// ------------- */
+#ContactInfo{
+  background: #1b998b;
+  text-align: center;
+  color: #f2ddde;
+  margin: 0px;
+  padding: 7px;
+  font-size: 150%;
+}
+
+.hotboi{
+  width: 360px
+}
+
+.weather{
+  display: flexbox;
+}
+
+.weathertext{
+  margin: 50px 400px 250px 250px;
+}
+
+.weatherphoto{
+  width: 360px;
+  float: left;
+  margin: 50px 250px 50px 250px;
+}
+
+button{
+  align-self: left;
+  background-color: #1b998b;
+  color: #f2ddde;
+  border-radius: 18px;
+  cursor: pointer;
+}
+button:hover{
+  background-color: #0d13219b;
+}
